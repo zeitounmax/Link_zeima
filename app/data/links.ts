@@ -51,7 +51,7 @@ export const links: Link[] = [
   },
   {
     name: "Email Pro",
-    url: "bonjour.zeitouncode@zeima.fr",
+    url: "mailto:bonjour.zeitouncode@zeima.fr",
     icon: "📧",
     color: "hover:bg-orange-500 hover:text-white"
   },
