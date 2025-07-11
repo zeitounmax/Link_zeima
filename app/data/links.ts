@@ -51,13 +51,13 @@ export const links: Link[] = [
   },
   {
     name: "Email Pro",
-    url: "mailto:maximilien.thiry@protonmail.com",
+    url: "bonjour.zeitouncode@zeima.fr",
     icon: "📧",
     color: "hover:bg-orange-500 hover:text-white"
   },
   {
     name: "Email Perso",
-    url: "mailto:maximilien.thiry@tuta.io",
+    url: "mailto:maximilien.thiry@zeima.fr",
     icon: "📧",
     color: "hover:bg-orange-500 hover:text-white"
   }
