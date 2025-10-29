@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Zeima-Thiry Maximilien - Mes Liens",
+  title: "Thiry Maximilien(Zeima) - Mes Liens",
   description: "Tous les liens pour me contacter",
   icons: {
     icon: [
