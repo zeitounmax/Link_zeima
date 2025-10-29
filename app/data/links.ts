@@ -18,7 +18,6 @@ export const links: Link[] = [
     icon: "🐘",
     color: "hover:bg-purple-500 hover:text-white",
   },
-
   {
     name: "ZeitounCode",
     url: "https://zeitouncode.fr",
