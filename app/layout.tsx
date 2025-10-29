@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zeima - Mes Liens",
+  title: "Zeima-Thiry Maximilien - Mes Liens",
   description: "Tous les liens pour me contacter",
   icons: {
     icon: [
