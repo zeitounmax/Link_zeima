@@ -10,21 +10,21 @@ export default function LinkCard({ link }: LinkCardProps) {
       href={link.url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`block w-full p-3 sm:p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${link.color}`}
+      className="block w-full h-full p-2 sm:p-2.5 rounded-md bg-[var(--card)] border border-[var(--border)] shadow-sm hover:border-[var(--primary)] transition-colors duration-200 group relative overflow-hidden"
     >
       <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-2 sm:space-x-3">
-                  <span className="text-lg sm:text-xl">{link.icon}</span>
-                  <span className="font-medium text-slate-700 dark:text-slate-300 text-sm sm:text-base">
-                    {link.name}
-                  </span>
-                </div>
-                        <svg
-                  className="w-4 h-4 sm:w-5 sm:h-5 text-slate-400 dark:text-slate-500"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
+        <div className="flex items-center space-x-2 sm:space-x-3">
+          <span className="text-lg sm:text-xl group-hover:scale-110 transition-transform duration-200">{link.icon}</span>
+          <span className="font-medium text-[var(--card-foreground)] text-sm sm:text-base group-hover:text-[var(--primary)] transition-colors">
+            {link.name}
+          </span>
+        </div>
+        <svg
+          className="w-4 h-4 sm:w-5 sm:h-5 text-[var(--border)] group-hover:text-[var(--primary)] transition-colors"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"

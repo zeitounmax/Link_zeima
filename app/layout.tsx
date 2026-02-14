@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
-import { Roboto, Montserrat } from "next/font/google";
+import { SUSE } from "next/font/google";
 import "./globals.css";
 
-const roboto = Roboto({
-  variable: "--font-roboto-sans",
-  subsets: ["latin"],
-});
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat-mono",
+const suse = SUSE({
+  variable: "--font-suse",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Thiry Maximilien(Zeima) - Mes Liens",
-  description: "Tous les liens pour me contacter",
+  title: "Zeima (Linktree Maison)",
+  description: "Ici pour me contacter",
   icons: {
     icon: [
       {
@@ -32,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${montserrat.variable} antialiased`}>
+      <body className={`${suse.variable} antialiased`}>
         {children}
       </body>
     </html>
